@@ -6,8 +6,8 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 const DB_HOST = process.env.DB_HOST || '127.0.0.1';
-const DB_USER = process.env.DB_USER || 'admin';
-const DB_PASS = process.env.DB_PASS || 'pass';
+const DB_USER = process.env.DB_USER || '...';
+const DB_PASS = process.env.DB_PASS || '...';
 const DB_NAME = 'demodb';
 
 let pool;
