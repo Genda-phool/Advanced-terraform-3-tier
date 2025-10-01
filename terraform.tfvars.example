@@ -1,5 +1,5 @@
 aws_region = "us-east-1"
-my_home_ip = "YOUR.PUBLIC.IP.HERE/32"
-db_password = "ChangeMe123!"
+my_home_ip = "Pub_IP/32"
+db_password = "..."
 app_name = "demo-node-app"
 app_port = 3000
