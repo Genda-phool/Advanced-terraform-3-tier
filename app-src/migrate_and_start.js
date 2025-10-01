@@ -6,8 +6,8 @@ const mysql = require('mysql2/promise');
 const { exec } = require('child_process');
 
 const DB_HOST = process.env.DB_HOST || '127.0.0.1';
-const DB_USER = process.env.DB_USER || 'admin';
-const DB_PASS = process.env.DB_PASS || 'pass';
+const DB_USER = process.env.DB_USER || '...';
+const DB_PASS = process.env.DB_PASS || '...';
 const DB_NAME = 'demodb';
 
 async function migrate() {
